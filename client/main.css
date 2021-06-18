@@ -1,0 +1,32 @@
+body{
+	display:flex;
+}
+
+.querybox{
+	margin-left:10px;
+}
+
+.queryresults{
+	resize:both;
+	overflow: auto;
+}
+
+.button p {
+	margin:5px;
+}
+
+.buttonW p {
+	margin:5px;
+}
+
+.button:hover,.addbutton:hover,.buttonW:hover{
+	background: rgba(200,200,200,0.5);
+}
+
+.button{
+	border:1px solid gray;
+	display: flex;
+	width:200px;
+	transition:0.3s;
+	margin:10px;
+}

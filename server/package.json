@@ -1,0 +1,22 @@
+{
+  "name": "sblandin-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controller.js",
+  "scripts": {
+    "test": "node controller.js -test_mode -echo_0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deasync": "^0.1.21",
+    "express": "^4.17.1",
+    "geolib": "^3.3.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}

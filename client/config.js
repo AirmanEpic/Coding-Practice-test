@@ -1,0 +1,1 @@
+config = {"mysql_address":"localhost","mysql_port":"","API_address":"localhost","API_port":"8080"}

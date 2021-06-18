@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saildrone Operations view</title>
+	<meta charset="utf-8">
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+	<link rel='stylesheet' href='/public/main.css' />
+</head>
+<body>
+	<div id='map'></div>
+	<div class='querybox'>
+		<h3>Target</h3>
+		<select class='tgtdropdown'>
+			<option value='drones'>Drones</option>
+			<option value='routes'>Routes</option>
+			<option value='stations'>Stations</option>
+			<option value='positions'>Positions</option>
+		</select>
+		<h3>Action - Not all actions are possible on all targets</h3>
+		<select class='actiondropdown'>
+			<option value='create'>Create</option>
+			<option value='read'>Read</option>
+			<option value='update'>Update</option>
+			<option value='destroy'>Destroy</option>
+			<option value='radius'>Radius</option>
+			<option value='history'>History</option>
+		</select>
+		<h3>ID</h3>
+		<input type='number' class='idtgt'>
+		<h3>JSON</h3>
+		<textarea class='arguments'></textarea>
+		<div class='sendbut button'><p>Execute</p></div>
+		<p class='queryresults'>Make a query to see the results here</p>
+		<p class='mousecoords'>Mouse coordinates:</p>
+		<p> To test, open the developer console and type runTests(), then hit enter. You should see "tests passing"</p>
+	</div>
+<script type="text/javascript" src="/public/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/public/package.js"></script>
+<script type="text/javascript" src="/public/std_code.js"></script>
+<script type="text/javascript" src="/public/config.js"></script>
+<script type="text/javascript" src="/public/app.js"></script>
+</body>
+</html>
